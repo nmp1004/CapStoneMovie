@@ -1,0 +1,13 @@
+.listMovie .ant-card-body {
+    padding: 16px 0;
+    
+}
+
+.listMovie .ant-card {
+    border: none;
+}
+
+.listMovie .ant-card:hover {
+    border: none;
+    box-shadow: none;
+}

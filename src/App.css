@@ -1,38 +1,60 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    width: 70%;
+    margin:auto; 
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.nav-header {
+    color: #000;
+    cursor: pointer;
+    padding: 0px 16px;
+    transition: all .3s;
+    text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.hr-headerTablet {
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.h3-header {
+    font-weight: 600;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.167;
 }
 
-.App-link {
-  color: #61dafb;
+/* .headerlogIn:hover .svg-header {
+    fill: red;
+   
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.headerlogIn:hover .h3-header {
+    color: red;
+} */
+
+.hr-header {
+    content: "";
+    width: 1px;
+    height: auto;
+    opacity: .5;
+    background-color: #808080;
+    margin: 0 !important;
+}
+
+.svg-header {
+    fill: gray;
+}
+
+.nav-header:hover {
+    color: red;
+}
+
+h4 {
+    font-size: 14px !important;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1.235;
+    letter-spacing: 0.00735em;
+    font-weight: 600;
 }

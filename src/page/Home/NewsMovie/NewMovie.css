@@ -1,0 +1,35 @@
+.newsmovie .ant-tabs-tab-btn:hover {
+    color: black ;
+    transform: scale(1.2);
+}
+
+/* .newsmovie  .ant-tabs-content-holder {
+    display: none;
+} */
+
+.newsmovie .ant-tabs-tab:hover {
+    color: black !important;
+}
+
+.newsmovie .ant-tabs-tab {
+    padding: 15px !important;
+
+}
+
+
+.newsmovie .ant-tabs-tab.newsisActive {
+    color: #fb4226;
+}
+
+.newsmovie .ant-tabs-tab:not(:first-child) {
+    margin-left: 32px;
+}
+
+.newsmovie .newsmovie-fake::before {
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    border-bottom: 1px solid #f0f0f0;
+    content: '';
+}

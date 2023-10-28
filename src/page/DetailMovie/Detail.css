@@ -1,0 +1,7 @@
+.pageDetails .ant-tabs-tab {
+    padding: 0 !important;
+}
+
+.pageDetails .ant-tabs-content  {
+    padding: 12px 24px 24px 0;
+}

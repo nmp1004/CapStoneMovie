@@ -1,0 +1,31 @@
+.slider-son::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    transform: scaleX(0);
+    transition: all .3s;
+    border-bottom: 2px solid #fb4226;
+    pointer-events: none;
+}
+
+.slider-son {
+    width: 100%;
+}
+
+.slider-after::after {
+    transform: scaleX(1);
+}
+
+.slider-son::before{
+    content: "";
+    width: 1px;
+    height: 50%;
+    top: 27%;
+    right: 5%;
+    position: absolute;
+    background-color: #d4d0d0;
+    display: block;
+}
+
