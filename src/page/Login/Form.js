@@ -43,7 +43,6 @@ const FormLogin = () => {
               let user = userLocalStorage.get()
               if (user.maLoaiNguoiDung == "QuanTri") {
                 navigate("/admin")
-               
               } else {
                 navigate("/")
               }
